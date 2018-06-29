@@ -31,3 +31,6 @@ Easy Mail uses a number of libraries:
 ## Languages
     - Java
     - JavaFX
+
+### Jar For Easy Mail
+[Download EasyMail.jar](https://github.com/semi-coden/easy-mail/raw/master/easy-mail-jar/EasyMail.jar)
