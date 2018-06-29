@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+group 'easymail'
+version '1.0'
+
+mainClassName = 'ui.EasyMailUI'
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    compile 'com.google.apis:google-api-services-gmail:v1-rev91-1.23.0'
+    compile 'com.google.oauth-client:google-oauth-client-jetty:1.23.0'
+    compile 'javax.mail:javax.mail-api:1.6.1'
+    compile 'com.sun.mail:javax.mail:1.6.0'
+    compile group: 'org.w3c', name: 'dom', version: '2.3.0-jaxb-1.0.6'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'ui.EasyMailUI'
+        attributes 'Class-Path': configurations.compile.collect { it.getName() }.join(' ')
+    }
+}
