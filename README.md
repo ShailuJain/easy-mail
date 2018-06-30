@@ -32,5 +32,8 @@ Easy Mail uses a number of libraries:
     - Java
     - JavaFX
 
-### Jar For Easy Mail
-[Download EasyMail.jar](https://github.com/semi-coden/easy-mail/raw/master/easy-mail-jar/EasyMail.jar)
+### Jar For Easy Mail *JDK 10*
+[Download EasyMail.jar JDK 10](https://github.com/semi-coden/easy-mail/raw/master/easy-mail-jar/EasyMail.jar)
+
+### Jar For Easy Mail *JDK 8*
+[Download EasyMail.jar JDK 8](https://github.com/semi-coden/easy-mail/raw/master/easy-mail-jar/EasyMail_jar2/EasyMail.jar)
