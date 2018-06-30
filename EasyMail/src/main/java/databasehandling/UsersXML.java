@@ -133,7 +133,7 @@ public class UsersXML {
      */
     public static int getIdForEmail(String email){
         int id = -1;
-        if(email!=null && isEmailPresent(email)){
+        if(email!=null){
             NodeList nodeList = document.getElementsByTagName("email");
             for (int i = 0; i < nodeList.getLength(); i++) {
                 if(nodeList.item(i).getNodeType() == Element.ELEMENT_NODE){
